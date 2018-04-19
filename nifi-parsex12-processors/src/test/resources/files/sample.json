@@ -1,0 +1,1229 @@
+{
+  "id": "ISA_LOOP",
+  "segments": [
+    {
+      "id": "ISA",
+      "elements": [
+        {
+          "id": "ISA01",
+          "value": "00",
+          "subValue": [
+            "00"
+          ]
+        },
+        {
+          "id": "ISA02",
+          "value": "          ",
+          "subValue": [
+            "          "
+          ]
+        },
+        {
+          "id": "ISA03",
+          "value": "00",
+          "subValue": [
+            "00"
+          ]
+        },
+        {
+          "id": "ISA04",
+          "value": "          ",
+          "subValue": [
+            "          "
+          ]
+        },
+        {
+          "id": "ISA05",
+          "value": "ZZ",
+          "subValue": [
+            "ZZ"
+          ]
+        },
+        {
+          "id": "ISA06",
+          "value": "D00000         ",
+          "subValue": [
+            "D00000         "
+          ]
+        },
+        {
+          "id": "ISA07",
+          "value": "ZZ",
+          "subValue": [
+            "ZZ"
+          ]
+        },
+        {
+          "id": "ISA08",
+          "value": "00AA           ",
+          "subValue": [
+            "00AA           "
+          ]
+        },
+        {
+          "id": "ISA09",
+          "value": "141028",
+          "subValue": [
+            "141028"
+          ]
+        },
+        {
+          "id": "ISA10",
+          "value": "1609",
+          "subValue": [
+            "1609"
+          ]
+        },
+        {
+          "id": "ISA11",
+          "value": "^",
+          "subValue": [
+            "^"
+          ]
+        },
+        {
+          "id": "ISA12",
+          "value": "00501",
+          "subValue": [
+            "00501"
+          ]
+        },
+        {
+          "id": "ISA13",
+          "value": "000238388",
+          "subValue": [
+            "000238388"
+          ]
+        },
+        {
+          "id": "ISA14",
+          "value": "1",
+          "subValue": [
+            "1"
+          ]
+        },
+        {
+          "id": "ISA15",
+          "value": "P",
+          "subValue": [
+            "P"
+          ]
+        },
+        {
+          "id": "ISA16",
+          "value": ":",
+          "subValue": []
+        }
+      ]
+    }
+  ],
+  "loops": [
+    {
+      "id": "GS_LOOP",
+      "segments": [
+        {
+          "id": "GS",
+          "elements": [
+            {
+              "id": "GS01",
+              "value": "HP",
+              "subValue": [
+                "HP"
+              ]
+            },
+            {
+              "id": "GS02",
+              "value": "D00111",
+              "subValue": [
+                "D00111"
+              ]
+            },
+            {
+              "id": "GS03",
+              "value": "00GR",
+              "subValue": [
+                "00GR"
+              ]
+            },
+            {
+              "id": "GS04",
+              "value": "20141028",
+              "subValue": [
+                "20141028"
+              ]
+            },
+            {
+              "id": "GS05",
+              "value": "1609",
+              "subValue": [
+                "1609"
+              ]
+            },
+            {
+              "id": "GS06",
+              "value": "383880001",
+              "subValue": [
+                "383880001"
+              ]
+            },
+            {
+              "id": "GS07",
+              "value": "X",
+              "subValue": [
+                "X"
+              ]
+            },
+            {
+              "id": "GS08",
+              "value": "005010X221A1",
+              "subValue": [
+                "005010X221A1"
+              ]
+            }
+          ]
+        }
+      ],
+      "loops": [
+        {
+          "id": "ST_LOOP",
+          "segments": [
+            {
+              "id": "ST",
+              "elements": [
+                {
+                  "id": "ST01",
+                  "value": "835",
+                  "subValue": [
+                    "835"
+                  ]
+                },
+                {
+                  "id": "ST02",
+                  "value": "0001",
+                  "subValue": [
+                    "0001"
+                  ]
+                }
+              ]
+            }
+          ],
+          "loops": [
+            {
+              "id": "HEADER",
+              "segments": [
+                {
+                  "id": "BPR",
+                  "elements": [
+                    {
+                      "id": "BPR01",
+                      "value": "H",
+                      "subValue": [
+                        "H"
+                      ]
+                    },
+                    {
+                      "id": "BPR02",
+                      "value": "0",
+                      "subValue": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "id": "BPR03",
+                      "value": "C",
+                      "subValue": [
+                        "C"
+                      ]
+                    },
+                    {
+                      "id": "BPR04",
+                      "value": "NON",
+                      "subValue": [
+                        "NON"
+                      ]
+                    },
+                    {
+                      "id": "BPR05",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR06",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR07",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR08",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR09",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR10",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR11",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR12",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR13",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR14",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR15",
+                      "value": "",
+                      "subValue": [
+                        ""
+                      ]
+                    },
+                    {
+                      "id": "BPR16",
+                      "value": "20041028",
+                      "subValue": [
+                        "20041028"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "TRN",
+                  "elements": [
+                    {
+                      "id": "TRN01",
+                      "value": "1",
+                      "subValue": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "id": "TRN02",
+                      "value": "000000000",
+                      "subValue": [
+                        "000000000"
+                      ]
+                    },
+                    {
+                      "id": "TRN03",
+                      "value": "1386000134",
+                      "subValue": [
+                        "1386000134"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "REF",
+                  "elements": [
+                    {
+                      "id": "REF01",
+                      "value": "EV",
+                      "subValue": [
+                        "EV"
+                      ]
+                    },
+                    {
+                      "id": "REF02",
+                      "value": "00GR",
+                      "subValue": [
+                        "00GR"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "DTM",
+                  "elements": [
+                    {
+                      "id": "DTM01",
+                      "value": "405",
+                      "subValue": [
+                        "405"
+                      ]
+                    },
+                    {
+                      "id": "DTM02",
+                      "value": "20130901",
+                      "subValue": [
+                        "20130901"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "loops": [
+                {
+                  "id": "1000A",
+                  "segments": [
+                    {
+                      "id": "N1",
+                      "elements": [
+                        {
+                          "id": "N101",
+                          "value": "PR",
+                          "subValue": [
+                            "PR"
+                          ]
+                        },
+                        {
+                          "id": "N102",
+                          "value": "PAYER",
+                          "subValue": [
+                            "PAYER"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "N3",
+                      "elements": [
+                        {
+                          "id": "N301",
+                          "value": "P.O. BOX 30479",
+                          "subValue": [
+                            "P.O. BOX 30479"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "N4",
+                      "elements": [
+                        {
+                          "id": "N401",
+                          "value": "LANSING",
+                          "subValue": [
+                            "LANSING"
+                          ]
+                        },
+                        {
+                          "id": "N402",
+                          "value": "MI",
+                          "subValue": [
+                            "MI"
+                          ]
+                        },
+                        {
+                          "id": "N403",
+                          "value": "48909",
+                          "subValue": [
+                            "48909"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "PER",
+                      "elements": [
+                        {
+                          "id": "PER01",
+                          "value": "BL",
+                          "subValue": [
+                            "BL"
+                          ]
+                        },
+                        {
+                          "id": "PER02",
+                          "value": "JOHN WAYNE",
+                          "subValue": [
+                            "JOHN WAYNE"
+                          ]
+                        },
+                        {
+                          "id": "PER03",
+                          "value": "TE",
+                          "subValue": [
+                            "TE"
+                          ]
+                        },
+                        {
+                          "id": "PER04",
+                          "value": "9995551212",
+                          "subValue": [
+                            "9995551212"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "loops": []
+                },
+                {
+                  "id": "1000B",
+                  "segments": [
+                    {
+                      "id": "N1",
+                      "elements": [
+                        {
+                          "id": "N101",
+                          "value": "PE",
+                          "subValue": [
+                            "PE"
+                          ]
+                        },
+                        {
+                          "id": "N102",
+                          "value": "UNKNOWN",
+                          "subValue": [
+                            "UNKNOWN"
+                          ]
+                        },
+                        {
+                          "id": "N103",
+                          "value": "FI",
+                          "subValue": [
+                            "FI"
+                          ]
+                        },
+                        {
+                          "id": "N104",
+                          "value": "444313000",
+                          "subValue": [
+                            "444313000"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "loops": []
+                }
+              ]
+            },
+            {
+              "id": "DETAIL",
+              "segments": [],
+              "loops": [
+                {
+                  "id": "2000",
+                  "segments": [
+                    {
+                      "id": "LX",
+                      "elements": [
+                        {
+                          "id": "LX01",
+                          "value": "1",
+                          "subValue": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "TS3",
+                      "elements": [
+                        {
+                          "id": "TS301",
+                          "value": "653423424",
+                          "subValue": [
+                            "653423424"
+                          ]
+                        },
+                        {
+                          "id": "TS302",
+                          "value": "12",
+                          "subValue": [
+                            "12"
+                          ]
+                        },
+                        {
+                          "id": "TS303",
+                          "value": "20041231",
+                          "subValue": [
+                            "20041231"
+                          ]
+                        },
+                        {
+                          "id": "TS304",
+                          "value": "1",
+                          "subValue": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "id": "TS305",
+                          "value": "915.39",
+                          "subValue": [
+                            "915.39"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "loops": [
+                    {
+                      "id": "2100",
+                      "segments": [
+                        {
+                          "id": "CLP",
+                          "elements": [
+                            {
+                              "id": "CLP01",
+                              "value": "2005555A",
+                              "subValue": [
+                                "2005555A"
+                              ]
+                            },
+                            {
+                              "id": "CLP02",
+                              "value": "4",
+                              "subValue": [
+                                "4"
+                              ]
+                            },
+                            {
+                              "id": "CLP03",
+                              "value": "915.39",
+                              "subValue": [
+                                "915.39"
+                              ]
+                            },
+                            {
+                              "id": "CLP04",
+                              "value": "0",
+                              "subValue": [
+                                "0"
+                              ]
+                            },
+                            {
+                              "id": "CLP05",
+                              "value": "",
+                              "subValue": [
+                                ""
+                              ]
+                            },
+                            {
+                              "id": "CLP06",
+                              "value": "MC",
+                              "subValue": [
+                                "MC"
+                              ]
+                            },
+                            {
+                              "id": "CLP07",
+                              "value": "4276512332",
+                              "subValue": [
+                                "4276512332"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "NM1",
+                          "elements": [
+                            {
+                              "id": "NM101",
+                              "value": "QC",
+                              "subValue": [
+                                "QC"
+                              ]
+                            },
+                            {
+                              "id": "NM102",
+                              "value": "1",
+                              "subValue": [
+                                "1"
+                              ]
+                            },
+                            {
+                              "id": "NM103",
+                              "value": "BACH",
+                              "subValue": [
+                                "BACH"
+                              ]
+                            },
+                            {
+                              "id": "NM104",
+                              "value": "JOHANN",
+                              "subValue": [
+                                "JOHANN"
+                              ]
+                            },
+                            {
+                              "id": "NM105",
+                              "value": "S",
+                              "subValue": [
+                                "S"
+                              ]
+                            },
+                            {
+                              "id": "NM106",
+                              "value": "",
+                              "subValue": [
+                                ""
+                              ]
+                            },
+                            {
+                              "id": "NM107",
+                              "value": "",
+                              "subValue": [
+                                ""
+                              ]
+                            },
+                            {
+                              "id": "NM108",
+                              "value": "MR",
+                              "subValue": [
+                                "MR"
+                              ]
+                            },
+                            {
+                              "id": "NM109",
+                              "value": "00001612",
+                              "subValue": [
+                                "00001612"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "NM1",
+                          "elements": [
+                            {
+                              "id": "NM101",
+                              "value": "82",
+                              "subValue": [
+                                "82"
+                              ]
+                            },
+                            {
+                              "id": "NM102",
+                              "value": "2",
+                              "subValue": [
+                                "2"
+                              ]
+                            },
+                            {
+                              "id": "NM103",
+                              "value": "PAYEE",
+                              "subValue": [
+                                "PAYEE"
+                              ]
+                            },
+                            {
+                              "id": "NM104",
+                              "value": "",
+                              "subValue": [
+                                ""
+                              ]
+                            },
+                            {
+                              "id": "NM105",
+                              "value": "",
+                              "subValue": [
+                                ""
+                              ]
+                            },
+                            {
+                              "id": "NM106",
+                              "value": "",
+                              "subValue": [
+                                ""
+                              ]
+                            },
+                            {
+                              "id": "NM107",
+                              "value": "",
+                              "subValue": [
+                                ""
+                              ]
+                            },
+                            {
+                              "id": "NM108",
+                              "value": "MC",
+                              "subValue": [
+                                "MC"
+                              ]
+                            },
+                            {
+                              "id": "NM109",
+                              "value": "44452736",
+                              "subValue": [
+                                "44452736"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "loops": [
+                        {
+                          "id": "2110",
+                          "segments": [
+                            {
+                              "id": "SVC",
+                              "elements": [
+                                {
+                                  "id": "SVC01",
+                                  "value": "HC:T1005",
+                                  "subValue": [
+                                    "HC",
+                                    "T1005"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC02",
+                                  "value": "500.04",
+                                  "subValue": [
+                                    "500.04"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC03",
+                                  "value": "0",
+                                  "subValue": [
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC04",
+                                  "value": "",
+                                  "subValue": [
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "id": "SVC05",
+                                  "value": "68",
+                                  "subValue": [
+                                    "68"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "DTM",
+                              "elements": [
+                                {
+                                  "id": "DTM01",
+                                  "value": "150",
+                                  "subValue": [
+                                    "150"
+                                  ]
+                                },
+                                {
+                                  "id": "DTM02",
+                                  "value": "20031129",
+                                  "subValue": [
+                                    "20031129"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "DTM",
+                              "elements": [
+                                {
+                                  "id": "DTM01",
+                                  "value": "151",
+                                  "subValue": [
+                                    "151"
+                                  ]
+                                },
+                                {
+                                  "id": "DTM02",
+                                  "value": "20031129",
+                                  "subValue": [
+                                    "20031129"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "CAS",
+                              "elements": [
+                                {
+                                  "id": "CAS01",
+                                  "value": "CO",
+                                  "subValue": [
+                                    "CO"
+                                  ]
+                                },
+                                {
+                                  "id": "CAS02",
+                                  "value": "16",
+                                  "subValue": [
+                                    "16"
+                                  ]
+                                },
+                                {
+                                  "id": "CAS03",
+                                  "value": "500.04",
+                                  "subValue": [
+                                    "500.04"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "LQ",
+                              "elements": [
+                                {
+                                  "id": "LQ01",
+                                  "value": "HE",
+                                  "subValue": [
+                                    "HE"
+                                  ]
+                                },
+                                {
+                                  "id": "LQ02",
+                                  "value": "N14",
+                                  "subValue": [
+                                    "N14"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "loops": []
+                        },
+                        {
+                          "id": "2110",
+                          "segments": [
+                            {
+                              "id": "SVC",
+                              "elements": [
+                                {
+                                  "id": "SVC01",
+                                  "value": "HC:T1005",
+                                  "subValue": [
+                                    "HC",
+                                    "T1005"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC02",
+                                  "value": "127.8",
+                                  "subValue": [
+                                    "127.8"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC03",
+                                  "value": "0",
+                                  "subValue": [
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC04",
+                                  "value": "",
+                                  "subValue": [
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "id": "SVC05",
+                                  "value": "16",
+                                  "subValue": [
+                                    "16"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "DTM",
+                              "elements": [
+                                {
+                                  "id": "DTM01",
+                                  "value": "150",
+                                  "subValue": [
+                                    "150"
+                                  ]
+                                },
+                                {
+                                  "id": "DTM02",
+                                  "value": "20031030",
+                                  "subValue": [
+                                    "20031030"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "DTM",
+                              "elements": [
+                                {
+                                  "id": "DTM01",
+                                  "value": "151",
+                                  "subValue": [
+                                    "151"
+                                  ]
+                                },
+                                {
+                                  "id": "DTM02",
+                                  "value": "20031030",
+                                  "subValue": [
+                                    "20031030"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "CAS",
+                              "elements": [
+                                {
+                                  "id": "CAS01",
+                                  "value": "OA",
+                                  "subValue": [
+                                    "OA"
+                                  ]
+                                },
+                                {
+                                  "id": "CAS02",
+                                  "value": "A7",
+                                  "subValue": [
+                                    "A7"
+                                  ]
+                                },
+                                {
+                                  "id": "CAS03",
+                                  "value": "127.8",
+                                  "subValue": [
+                                    "127.8"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "LQ",
+                              "elements": [
+                                {
+                                  "id": "LQ01",
+                                  "value": "HE",
+                                  "subValue": [
+                                    "HE"
+                                  ]
+                                },
+                                {
+                                  "id": "LQ02",
+                                  "value": "N14",
+                                  "subValue": [
+                                    "N14"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "loops": []
+                        },
+                        {
+                          "id": "2110",
+                          "segments": [
+                            {
+                              "id": "SVC",
+                              "elements": [
+                                {
+                                  "id": "SVC01",
+                                  "value": "HC:T1005",
+                                  "subValue": [
+                                    "HC",
+                                    "T1005"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC02",
+                                  "value": "287.55",
+                                  "subValue": [
+                                    "287.55"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC03",
+                                  "value": "0",
+                                  "subValue": [
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "id": "SVC04",
+                                  "value": "",
+                                  "subValue": [
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "id": "SVC05",
+                                  "value": "36",
+                                  "subValue": [
+                                    "36"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "DTM",
+                              "elements": [
+                                {
+                                  "id": "DTM01",
+                                  "value": "150",
+                                  "subValue": [
+                                    "150"
+                                  ]
+                                },
+                                {
+                                  "id": "DTM02",
+                                  "value": "20031031",
+                                  "subValue": [
+                                    "20031031"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "DTM",
+                              "elements": [
+                                {
+                                  "id": "DTM01",
+                                  "value": "151",
+                                  "subValue": [
+                                    "151"
+                                  ]
+                                },
+                                {
+                                  "id": "DTM02",
+                                  "value": "20031031",
+                                  "subValue": [
+                                    "20031031"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "CAS",
+                              "elements": [
+                                {
+                                  "id": "CAS01",
+                                  "value": "OA",
+                                  "subValue": [
+                                    "OA"
+                                  ]
+                                },
+                                {
+                                  "id": "CAS02",
+                                  "value": "A7",
+                                  "subValue": [
+                                    "A7"
+                                  ]
+                                },
+                                {
+                                  "id": "CAS03",
+                                  "value": "287.55",
+                                  "subValue": [
+                                    "287.55"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "LQ",
+                              "elements": [
+                                {
+                                  "id": "LQ01",
+                                  "value": "HE",
+                                  "subValue": [
+                                    "HE"
+                                  ]
+                                },
+                                {
+                                  "id": "LQ02",
+                                  "value": "N14",
+                                  "subValue": [
+                                    "N14"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "SE",
+                              "elements": [
+                                {
+                                  "id": "SE01",
+                                  "value": "31",
+                                  "subValue": [
+                                    "31"
+                                  ]
+                                },
+                                {
+                                  "id": "SE02",
+                                  "value": "0001",
+                                  "subValue": [
+                                    "0001"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "GE",
+                              "elements": [
+                                {
+                                  "id": "GE01",
+                                  "value": "1",
+                                  "subValue": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "id": "GE02",
+                                  "value": "383880001",
+                                  "subValue": [
+                                    "383880001"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "loops": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
