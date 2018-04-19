@@ -1,3 +1,7 @@
-# NIFI SplitX12 Bundle
+# NIFI ParseX12 Bundle
 
-NIFI processor to split EDI X12 files into smaller files
+NIFI Processor that converts NIFI to JSON.
+
+Uses https://github.com/imsweb/x12-parser
+
+
