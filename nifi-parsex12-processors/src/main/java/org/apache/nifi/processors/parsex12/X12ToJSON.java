@@ -29,7 +29,7 @@ public class X12ToJSON extends AbstractProcessor {
             .description("success")
             .build();
 
-    private static final Relationship REL_FAILURE = new Relationship.Builder()
+    public static final Relationship REL_FAILURE = new Relationship.Builder()
             .name("failure")
             .description("failure")
             .build();
@@ -59,36 +59,31 @@ public class X12ToJSON extends AbstractProcessor {
 
     @Override
     public void onTrigger(ProcessContext processContext, ProcessSession session) throws ProcessException {
-        final FlowFile flowFile = session.get();
+        FlowFile flowFile = session.get();
         if (flowFile == null) {
             return;
         }
 
-        final FlowFile flowFileClone = session.clone(flowFile);
+        try {
+            flowFile = session.write(flowFile, (in, out) -> {
+                byte[] byteArray = IOUtils.toByteArray(in);
 
-        session.read(flowFile, inputStream -> session.write(flowFileClone, outputStream -> {
-            try {
+                try (final InputStream typeStream = new ByteArrayInputStream(byteArray);
+                     final InputStream readerStream = new ByteArrayInputStream(byteArray)) {
 
-                byte[] byteArray = IOUtils.toByteArray(inputStream);
-                inputStream.close();
+                    GetX12FileType getX12FileType = new GetX12FileType(typeStream);
+                    X12Reader.FileType fileType = getX12FileType.getFileFormat();
+                    X12Reader x12Reader = new X12Reader(fileType, readerStream);
 
-                InputStream typeStream = new ByteArrayInputStream(byteArray);
-                GetX12FileType getX12FileType = new GetX12FileType(typeStream);
-                typeStream.close();
+                    out.write(x12Reader.getLoop().toJson().getBytes());
+                }
+            });
+        } catch (final ProcessException pe) {
+            session.transfer(flowFile, REL_FAILURE);
+            return;
+        }
 
-                InputStream readerStream = new ByteArrayInputStream(byteArray);
-                X12Reader x12Reader = new X12Reader(X12Reader.FileType.ANSI835_5010_X221, readerStream);
-                readerStream.close();
 
-                outputStream.write(x12Reader.getLoop().toJson().getBytes());
-            } catch (Exception e) {
-                getLogger().error("Exception: " + e.getMessage());
-                session.transfer(flowFile, REL_FAILURE);
-            }
-        }));
-
-        session.transfer(flowFileClone, REL_SUCCESS);
-        session.remove(flowFile);
-        session.commit();
+        session.transfer(flowFile, REL_SUCCESS);
     }
 }

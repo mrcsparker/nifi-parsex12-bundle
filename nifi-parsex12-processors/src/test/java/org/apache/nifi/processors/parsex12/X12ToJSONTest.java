@@ -50,6 +50,23 @@ public class X12ToJSONTest {
         result.assertContentEquals(Files.readAllBytes(Paths.get(compare)));
     }
 
+    @Test
+    public void testNotSupported() throws IOException {
+        String f = ediFile("/files/not-supported.835");
+
+        testRunner.enqueue(Paths.get(f));
+        testRunner.run();
+
+        testRunner.assertQueueEmpty();
+
+        List<MockFlowFile> results = testRunner.getFlowFilesForRelationship(X12ToJSON.REL_FAILURE);
+        assertEquals("1 match", 1, results.size());
+
+        MockFlowFile result = results.get(0);
+        result.assertContentEquals(Files.readAllBytes(Paths.get(f)));
+
+    }
+
     private String ediFile(String fileName) {
         return this.getClass().getResource(fileName).getPath();
     }

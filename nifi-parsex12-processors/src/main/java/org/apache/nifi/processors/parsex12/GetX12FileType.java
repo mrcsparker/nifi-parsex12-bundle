@@ -1,6 +1,7 @@
 package org.apache.nifi.processors.parsex12;
 
 import com.imsweb.x12.reader.X12Reader;
+import org.apache.nifi.processor.exception.ProcessException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -53,6 +54,7 @@ public class GetX12FileType {
                 case "ST":
                     LOGGER.info("{}", elements);
                     idCode = elements[1];
+                    scanner.close();
                     return;
             }
         }
@@ -71,15 +73,16 @@ public class GetX12FileType {
         return releaseCode;
     }
 
-    public X12Reader.FileType getFileFormat() throws UnsupportedFileTypeException {
+    public X12Reader.FileType getFileFormat() throws ProcessException {
         String f = idCode + "." + releaseCode;
 
         LOGGER.info("{}", f);
 
         switch (f) {
+            case "835.004010X091": return X12Reader.FileType.ANSI835_4010_X091;
             case "835.005010X221A1": return X12Reader.FileType.ANSI835_5010_X221;
             case "837.005010X222A1": return X12Reader.FileType.ANSI837_5010_X222;
-            default: throw new UnsupportedFileTypeException(idCode + " : " + versionCode + " : " + releaseCode);
+            default: throw new ProcessException(idCode + " : " + versionCode + " : " + releaseCode);
         }
     }
 
